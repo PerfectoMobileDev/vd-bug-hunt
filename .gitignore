@@ -1,0 +1,21 @@
+#Python
+venv/
+*.pyc
+
+
+#IntelliJ files:
+.idea
+*.iml
+
+
+#maven output dir:
+target
+*.project
+*.classpath
+*.prefs
+*.log
+
+# WSS
+*.jar
+whitesource-EUA-java.config
+$\{USERPROFILE\}/
