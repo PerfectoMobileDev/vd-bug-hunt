@@ -8,8 +8,6 @@ public class Simulator {
 
     protected static IOSDriver driver;
 
-    protected static final String PERFECTO_APP_LOCATION = "PRIVATE:TestApp.zip";
-
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
 
         System.out.println("start test ");
