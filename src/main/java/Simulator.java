@@ -13,8 +13,8 @@ public class Simulator {
         System.out.println("start test ");
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
-        String host = "qatestlab.perfectomobile.com";
-        capabilities.setCapability("securityToken", "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpQzdvSVQyWk5hMzJSY0l5eWprS1lmS01LZlVqV0tGZWVfUGdab2g5M2RNIn0.eyJqdGkiOiI2MGEyNmM4ZC0yYjVmLTRjMTgtYTNiOS00OGQwNWEyN2NjYmYiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNTc5NjExODIzLCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3FhdGVzdGxhYi1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsInN1YiI6IjMxMGZkMzc0LTc5MWMtNGRiNS1iYjIzLTQ1YzNiZjcyMTczZiIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsIm5vbmNlIjoiNjFiOTM5OTktNGMzYS00ZmRiLWI0MmUtZjAyODRhYThkNTY1IiwiYXV0aF90aW1lIjowLCJzZXNzaW9uX3N0YXRlIjoiOGE0NDFjODktMTY1Ny00ZjJjLWE0ZjktMzJjMTRjMzkzMmVjIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZXBvcnRpdW0iOnsicm9sZXMiOlsiZXhlY3V0aW9uX2FkbWluIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19fQ.NnRlUneMNj9jpKOKr_Vsuv0tlS-KzHM0EO3QTc_W1Yd1V_UED7b95SRyVg5_kOlJhIaFoUAbzC3UIYxAZIqJSqwkhLi2ojUtSYf-DCOcHaffvauAN-OGmn7OHkyW6Dx2-RT2Q3IqsYUEvtxlXMBEFPjiv53BqURS6pThVCZtIpSDvBYen0i0w5uRiBw0n8uwdmMWx4qJQH-b-PEQJnJ1U0kQqP_TxImhBZHApvlDebZHimFo-tDV_kY5rfYyVtNXE7Xhx22d9qz_D7akFigXL71QJjLLs2fCF0_b29wY38wItpKW1dvO34meLDanfJCSa0Otszt5hxVOz5MYzzvy1A");
+        String host = "ps.perfectomobile.com";
+        capabilities.setCapability("securityToken", "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIyODhhNDIyNS1jOTE1LTQwZDctOTc2YS04MDhiMWE3YTFmODYifQ.eyJqdGkiOiJhYzAwM2FlOC1hYTY3LTQ0ZDMtOTgzYi01ZTg4MmU2NmM5MzAiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNjEzNTAxMTIwLCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3BzLXBlcmZlY3RvbW9iaWxlLWNvbSIsImF1ZCI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvcHMtcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiZmQ3YjEzMzAtMmFhYS00NTA2LWE2MDItNjMzOTVmZDY1NGM3IiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiIwMjNkZmIwZC02MzBmLTQxZjYtODVhZC00NDU1Mzg3MmNiYzMiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiI3YTE2YzQyNy1jMTQ5LTQ0MjktYjc5Yy1jNzg5YWQyZGZiMmQiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZXBvcnRpdW0iOnsicm9sZXMiOlsiYWRtaW5pc3RyYXRvciJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MifQ.6bifckN-2QO9lTGtJnp4hGGz1JHRzTgUvKDJZQlusJc");
 
         capabilities.setCapability("platformName", "iOS");
 
@@ -25,7 +25,7 @@ public class Simulator {
 //        capabilities.setCapability("appiumVersion", "1.20.2");
 //        capabilities.setCapability("browserName", "Safari");
         capabilities.setCapability("scriptName", "bug-hunt-sim-test");
-        capabilities.setCapability("app", "PUBLIC:InvoiceApp.app.zip");
+        capabilities.setCapability("app", "PUBLIC:TestApp.zip");
 
         driver = new IOSDriver(new URL("https://" + host + "/nexperience/perfectomobile/wd/hub"), capabilities);
 
